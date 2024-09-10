@@ -1,0 +1,67 @@
+$base_color: #3A5F56;
+$second_color: #292C32;
+
+@font-face{
+    font-family: Roboto;
+    src: url(../font/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    &__wrap{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+
+    &__box{
+        display: flex;
+        align-items: center;
+    }
+
+    &__menu{
+        display: flex;
+    }
+
+    &__link{
+        color: $base_color;
+        font-size: 16px;
+    }
+
+    &__item{
+        margin-right: 30px;
+    }
+
+    &__cart{
+        display: flex;
+        gap: 8px;
+        &::before{
+            content: ;
+            background: url();
+            display: block;
+            width: 17px;
+            height: 17px;
+        }
+    }
+}
+
